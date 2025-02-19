@@ -1,4 +1,4 @@
-### Steps to consider while running the app
+## Steps to consider while running the app
 
 1. Create a virtual environment
 
@@ -24,4 +24,4 @@
 
 
 
-## FYI: Make sure you have an XAMPP server running sql, and you have a database there called `student_db`
+#@# FYI: Make sure you have an XAMPP server running sql, and you have a database there called `student_db`
