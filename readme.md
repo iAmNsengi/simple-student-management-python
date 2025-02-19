@@ -22,4 +22,6 @@
 `API_KEY= your-api-key-here-generated-from-a-uuid-generator-for-safety`
 
 
-FYI: Make sure you have an XAMPP server running sql, and you have a database there called `student_db`
+
+
+## FYI: Make sure you have an XAMPP server running sql, and you have a database there called `student_db`
