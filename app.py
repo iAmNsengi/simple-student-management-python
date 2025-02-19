@@ -1,16 +1,13 @@
-# app.py
 from flask import Flask, request, jsonify, render_template
 import mysql.connector
 from functools import wraps
 import os
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv()
 
 app = Flask(__name__)
 
-# Database configuration from environment variables
 db_config = {
     'host': os.getenv('DB_HOST', 'localhost'),
     'user': os.getenv('DB_USER', 'root'),
@@ -107,6 +104,7 @@ def register_student():
     
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
 
 @app.route('/api/students/view', methods=['POST'])
 @require_api_key
